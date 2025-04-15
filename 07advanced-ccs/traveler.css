@@ -1,0 +1,154 @@
+body {
+    font-family: "Bangers", serif;
+    margin: 0;
+}
+
+/* header stuff here */
+header {
+    background-color: #eaeaea;
+    padding: 1rem 10px;
+    display: flex;
+}
+header span{
+    color: #024873;
+    font-size: 5rem;
+    font-weight: 700;
+}
+
+
+/*navigation stuff here*/
+nav {
+    background-color: #CE1141;
+}
+nav ul {
+    margin: 0;
+    padding: 0 10px;
+    list-style-type: none;
+    display: flex;
+}
+nav a {
+    display: block;
+    padding: .83rem 1rem;
+    text-decoration: none;
+    font-size: 1.1rem;
+    color: #024873;
+    font-weight: 700;
+}
+
+nav li.active a {
+    background-color: #13274F;
+    color: #CE1141;
+}
+
+nav li a:hover {
+   color: white; 
+}
+
+/*main stuff here*/
+main {
+    padding: 1rem 10px;
+}
+
+main h1 {
+    color: #f20519;
+}
+main h2 {
+    color: #024873;
+    margin-bottom: .2rem;
+}
+main p {
+    margin: 0;
+    color: #333;
+    font-size: 1.3rem;
+}
+main ol {
+    padding: .5rem 30px;
+    background-color: #efefef;
+}
+main dl dt {
+    color: #b40412;
+    font-wight: 700;
+    margin-top: 1rem;
+}
+main dl dd{
+    color: #024873;
+    font-size: 1.5rem;
+    margin-left: 20px;
+}
+main ul {
+    list-style-type: square
+}
+main ul li {
+    line-hight: 125%;
+    margin-bottom: .5rem;
+    font-size: 1.3rem;
+}
+main strong {
+    font-weight: 700;
+    color: black;
+}
+main em {
+    font-weight: 300;
+}
+main address {
+    font-style: normal;
+    background-color: #EAAA00;
+    padding: .5rem;
+    border-radius: 10px;
+    border: 1px solid #024873;
+    width: 200px;
+}
+
+main a {
+    color: #024873;
+}
+main a:hover {
+    color: rgb(180, 4, 18);
+}
+
+figure.wrapped{
+    width: 30%;
+    margin: 0 0 0 2;
+    float: right;
+}
+figure.wrapped img {
+    width: 100%;
+    height: auto;
+}
+figure.wrapped figcaption {
+    text-align: center;
+    font-size: .75rem;
+}
+
+div.gallery{
+    display: flex;
+    flex-wrap: wrap;
+}
+div.gallery figure {
+    margin: .5rem 2% 0 0;
+}
+
+div.gallery figcaption{
+    text-align: center;
+    font-size: .8rem;
+ 
+    color: #f20519;
+}
+
+.myform {
+    display: block;
+}
+
+
+/*footer stuff here*/
+footer {
+    background-color: #eaeaea;
+    text-align: center;
+    padding: 1rem 0;
+    font-size: .8rem;
+    color: #333;
+}
+footer p{
+    margin: 0;
+    letter-spacing: 3px;
+}
