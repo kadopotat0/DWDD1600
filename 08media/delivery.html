@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Torpid Travelers is dedicated to helping you get around without breaking a sweat.">
+    <meta name="author" content="Kayden Watkins">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Oxygen:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="traveler.css">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    
+    <meta charset="UTF-8">
+    <title>shopping cart</title>
+</head>
+<body>
+    <!-- start the page header -->
+    <header>
+        <div>
+        <img src="images/nuke.jpg" alt="site logo" width="75" height="100">
+        </div>
+        <span>Baseball Info</span>
+    </header>
+    
+    <!-- start the page navigation -->
+    <nav>
+        <ul>
+           <li><a href="index.html">Atlanta Braves</a></li>
+            <li><a href="images.html">Braves Images</a></li>
+            <li><a href="ALA-Baseball.html">braves gear</a></li>
+            <li class="active"><a href="delivery.html">Shopping Cart</a></li>
+        </ul>
+    </nav>
+    
+    <!-- start the page main -->
+    <main>
+        <h1>request a Delivery</h1>
+        <form method="get" class="myform" action="thanks.html">
+         
+        <fieldset>
+        <legend>Customer Information</legend>
+                    <label>first name*<input type="text" name="fname" required>
+        </label>
+                    <label>last name*<input type="text" name="lname" required>
+        </label>
+                    <label>cell number*<input type="tel" name="phone" required placeholder="012-345-6789">
+        </label>
+        </fieldset>
+            
+        <fieldset>
+        <legend>Delivery method</legend>
+        <label><input type="radio" name="method" value="drone">same day delivery 50$)</label>
+        <label><input type="radio" name="method" value="cycle">24 hour delivery (+25$)</label>
+        <label><input type="radio" name="method" value="robot">5-10 day (FREE)</label>
+        </fieldset>
+            
+        <fieldset>
+        <legend>Delivery Options</legend>
+        <label><input type="checkbox" name="porch" value="chosen">Front Porch</label>
+        <label><input type="checkbox" name="deck" value="chosen">Back Deck</label>
+         <label><input type="checkbox" name="driveway" value="chosen">Driveway</label>
+         <label><input type="checkbox" name="garage" value="chosen">Inside The Garage</label>
+            
+        <label>Prefered delivery time
+        <select name="time">
+        <option value="none">please select</option>
+        <option value="morning">between 7AM and 12PM</option>
+        <option value="noon">between 12AM and 4PM</option>
+        <option value="afternoon">between 4PM and 8PM</option>
+        <option value="evening">between 8PM and 12PM</option>
+        </select>
+        </label>
+       </fieldset>
+            
+        <label>comments
+        <textarea name="comments" placeholder="place any special requests here."></textarea> 
+        </label>
+            
+        <input type="submit" value="Send delivery request">
+        </form>
+          </main>
+    
+    <!-- start the page footer -->
+    <footer>
+        <p>&copy;2021 &bull; Drone Delivery Services &bull; <a href="mailto:zen@gmail.com">Email Us</a> </p>
+    </footer>
+</body>
+</html>
